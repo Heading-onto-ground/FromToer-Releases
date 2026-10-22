@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FromToer — Continue the work. Not the explanation.</title>
+  <meta name="description" content="FromToer moves the working context from a long ChatGPT conversation into a fresh chat, so you can continue without summarizing, copying, pasting, and re-explaining by hand." />
+  <meta property="og:title" content="FromToer — Continue the work." />
+  <meta property="og:description" content="Move the working context from a long ChatGPT conversation into a fresh chat in one click." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav shell">
+    <a class="brand" href="#top" aria-label="FromToer home">FromToer</a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#roadmap">Roadmap</a>
+      <a class="nav-cta" href="https://github.com/Heading-onto-ground/FromToer-Releases/releases/download/v0.5.0/FromToer-v0.5.0-Windows-Beta.zip">Download beta</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="eyebrow">01 PRODUCT · FROMTOER · PRIVATE BETA</div>
+      <h1>Continue the work.<br><span>Not the explanation.</span></h1>
+      <p class="lead">FromToer carries the working context from a long ChatGPT conversation into a fresh ChatGPT chat, so you can keep going without doing the handoff by hand.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://github.com/Heading-onto-ground/FromToer-Releases/releases/download/v0.5.0/FromToer-v0.5.0-Windows-Beta.zip">Download Windows beta <span>↗</span></a>
+        <a class="button ghost" href="#demo">Watch the 10-second demo</a>
+      </div>
+      <p class="fine">ChatGPT → ChatGPT · v0.5.0 Beta · Windows + Chrome</p>
+    </section>
+
+    <section class="demo-wrap shell" id="demo" aria-label="FromToer animated product demo">
+      <div class="demo-copy">
+        <div class="kicker">THE WHOLE IDEA</div>
+        <h2>You can already do this manually.<br>You just shouldn't have to.</h2>
+        <p>Summarize. Copy. Open a new chat. Paste. Explain what matters again. FromToer turns that little ritual into one click.</p>
+      </div>
+
+      <div class="demo-card">
+        <div class="browser-bar">
+          <span></span><span></span><span></span>
+          <div class="address">chatgpt.com</div>
+        </div>
+        <div class="stage">
+          <div class="chat source-chat">
+            <div class="chat-label">LONG CHAT</div>
+            <div class="line w80"></div>
+            <div class="line w60"></div>
+            <div class="line w90"></div>
+            <div class="line w55"></div>
+            <div class="line w75"></div>
+            <div class="context-pill">Project context</div>
+          </div>
+
+          <div class="relay-column">
+            <button class="relay-button" type="button" aria-label="FromToer relay demo">FT</button>
+            <div class="relay-status">
+              <span class="status-one">1 click</span>
+              <span class="status-two">packing context…</span>
+              <span class="status-three">handoff ready</span>
+            </div>
+            <div class="arrow">→</div>
+          </div>
+
+          <div class="chat target-chat">
+            <div class="chat-label">NEW CHAT</div>
+            <div class="handoff-card">
+              <strong>Work state received</strong>
+              <span>Decisions · current state · next steps</span>
+            </div>
+            <div class="line w70"></div>
+            <div class="line w85"></div>
+            <div class="continue-pill">Continue from here</div>
+          </div>
+        </div>
+        <div class="demo-caption"><span class="pulse"></span> Demo loops automatically · about 10 seconds</div>
+      </div>
+    </section>
+
+    <section class="compare shell" id="how">
+      <div class="compare-card manual">
+        <div class="kicker">WITHOUT FROMTOER</div>
+        <ol>
+          <li>Summarize the old conversation</li>
+          <li>Copy the useful parts</li>
+          <li>Open a new chat</li>
+          <li>Paste everything</li>
+          <li>Explain what the new AI should remember</li>
+        </ol>
+      </div>
+      <div class="compare-card with-ft">
+        <div class="kicker">WITH FROMTOER</div>
+        <div class="one-click">1</div>
+        <h3>Click.</h3>
+        <p>A fresh chat opens with the handoff prepared so you can continue the work.</p>
+      </div>
+    </section>
+
+    <section class="positioning shell">
+      <blockquote>“I didn't build it because this was impossible. I built it because I was tired of doing it every time.”</blockquote>
+      <p>FromToer is not trying to invent a new AI capability. It removes the repetitive human work between AI conversations.</p>
+    </section>
+
+    <section class="roadmap shell" id="roadmap">
+      <div>
+        <div class="kicker">NOW</div>
+        <h3>ChatGPT → ChatGPT</h3>
+        <p>Long conversation to fresh conversation, with the work state carried forward.</p>
+      </div>
+      <div>
+        <div class="kicker">NEXT</div>
+        <h3>Claude → Claude</h3>
+        <p>The same handoff idea, without making FromToer a ChatGPT-only tool.</p>
+      </div>
+      <div>
+        <div class="kicker">LATER</div>
+        <h3>Across AIs</h3>
+        <p>Continue work across different AI products without rebuilding context by hand.</p>
+      </div>
+    </section>
+
+    <section class="beta shell">
+      <div>
+        <div class="kicker">BETA</div>
+        <h2>Try FromToer while it is still small.</h2>
+        <p>First 4 successful continuations are free. Founding Plan is $12/year and includes up to 20 successful continuations per monthly usage period.</p>
+      </div>
+      <div class="beta-actions">
+        <a class="button primary" href="https://github.com/Heading-onto-ground/FromToer-Releases/releases/download/v0.5.0/FromToer-v0.5.0-Windows-Beta.zip">Download v0.5.0 Beta</a>
+        <a class="text-link" href="https://github.com/Heading-onto-ground/FromToer-Releases/releases/tag/v0.5.0">Release notes ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <span>FromToer · Created by [ n( )as ]</span>
+    <a href="mailto:contactnoaslab@gmail.com">contactnoaslab@gmail.com</a>
+  </footer>
+</body>
+</html>
